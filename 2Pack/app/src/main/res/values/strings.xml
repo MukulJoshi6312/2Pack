@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">2Pack</string>
+    <string name="login">Login</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="create_acc">Create\nAccount</string>
+    <string name="forgot_cort">Don\'t worry, we just need your registered\nemail address and it
+        done
+    </string>
+    <string name="go_back"><![CDATA[<<Go Back]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="contact_email">For Support: support@2pack.in\nFor enquiry: enquiry@2pack.in\nFor Order: order@2pack.in</string>
+    <string name="map_location">Global Parachem LLP C-19,\nsector-A2,Tronica City,Loni,Ghaziabad,\nUttar Pradesh 201103
+    </string>
+
+    <string name="mapUrl">https://www.google.com/maps/place/GLOBAL+PARACHEM+LLP/@29.7567847,75.9019868,8z/data=!4m9!1m2!2m1!1sGlobal+Parachem+LLP+C-19,sector-A2,%5CnTronica+City,Loni,Ghaziabad,%5CnUttar+Pradesh+201103!3m5!1s0x390cffc21737b639:0xc656daaea308b1d!8m2!3d28.7885093!4d77.2620075!15sCldHbG9iYWwgUGFyYWNoZW0gTExQIEMtMTksc2VjdG9yLUEyLFxuVHJvbmljYSBDaXR5LExvbmksR2hhemlhYmFkLFxuVXR0YXIgUHJhZGVzaCAyMDExMDOSARFwYWNrYWdpbmdfY29tcGFueQ</string>
+
+
+    <string name="about_us">2pack.in is an online division of Global Parachem LLP, a leading Indian flexible packaging company that offers an extensive range of multilayer films, compostable films, shrink films, tamper-proof security bags, FMCG packaging and customized printing and packaging solutions as per customer’s requirement. With more than 25 years of experience in manufacturing quality poly films &amp; bags in India, we aim to provide clients with superior products whilst maintaining an outstanding customer service ethos. We make use of our cutting edge research knowledge as well as our Manufacturing capabilities for bespoke, customized and personalized polythene bags, sheeting and packaging solutions. Our Company is driven by an ambition of becoming a leader in providing unmatched quality products &amp; services.\n\nWith exceptional cutting edge technology, 2Pack.in in no time has seen remarkable growth in both production quality as well as quantity. We focus on seamless customer relationship services with our commitment focused from receiving the orders to executing it and finally a timely delivery. 2Pack.in is a one stop destination for all flexible packaging needs.\n\nOur biggest USP is having all in-house processes from extrusion of films from raw material to the production of the end product that contributes to seamless, effective as well as timely delivery of orders. At 2Pack.in we have always invested in the future with state of the art machineries.
+
+</string>
+
+    <string name="packing_solution">PACKAGING SOLUTIONS TO &amp; FROM ANYTHING</string>
+    <string name="packing_desc">From boxes to paper bags, you will find solutions for everything at one place. We are ‘One Stop Shop’ solution providers in packaging industry. Checkout our solutions being used in day to day basis.</string>
+
+    <string name="demo">Lorem ipsum donec id elit non mi porta gravida at eget metus.</string>
+
+    <string name="hc1_text">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</string>
+
+    <string name="feature_text">THICKNESS&#160;&#160;&#160;&#160; : 75GSM\n\nMATERIAL&#160;&#160;&#160;&#160;&#160;&#160; : VIRGIN KRAFT PAPER\n\nPRINTED&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;  : YES\n\nADHESIVE &#160;&#160;&#160;&#160;&#160;&#160;  : PERMANENT HOT MELT TAPE</string>
+    <string name="title_activity_spinner_demo">SpinnerDemo</string>
+</resources>

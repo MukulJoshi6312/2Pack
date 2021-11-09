@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="model">
+        <item>Myntra Paper Bag A</item>
+        <item>Myntra Paper Bag B</item>
+        <item>Myntra Paper Bag C</item>
+        <item>Myntra Paper Bag D</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>13 X 14</item>
+        <item>14 X 16</item>
+        <item>21 X 17</item>
+        <item>23 X 19</item>
+    </string-array>
+
+    <string-array name="quantity">
+        <item>1000</item>
+        <item>10000</item>
+        <item>25000</item>
+        <item>50000</item>
+        <item>100000</item>
+    </string-array>
+
+</resources>

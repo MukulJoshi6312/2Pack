@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:overScrollMode="always">
+
+
+       <TextView
+           android:id="@+id/textView8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           android:text="Myntra Branded Packaging"
+           android:textColor="@color/white"
+           android:textSize="24sp"
+           android:fontFamily="serif"
+           android:textStyle="bold"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/image_slider" />
+
+
+       <View
+           android:layout_width="0dp"
+           android:layout_height="2dp"
+           android:layout_marginTop="8dp"
+           android:background="@color/colorNoteColor6"
+           app:layout_constraintEnd_toEndOf="@+id/textView8"
+           app:layout_constraintStart_toStartOf="@+id/textView8"
+           app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/main_recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_marginTop="16dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="1.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+       <com.smarteist.autoimageslider.SliderView
+           android:id="@+id/image_slider"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:layout_marginTop="8dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:sliderAnimationDuration="700"
+           app:sliderAutoCycleDirection="back_and_forth"
+           app:sliderAutoCycleEnabled="true"
+           app:sliderIndicatorAnimationDuration="700"
+           app:sliderIndicatorGravity="center_horizontal|bottom"
+           app:sliderIndicatorMargin="15dp"
+           app:sliderIndicatorOrientation="horizontal"
+           app:sliderIndicatorPadding="3dp"
+           app:sliderIndicatorRadius="2dp"
+           app:sliderIndicatorSelectedColor="@color/colorAccent"
+           app:sliderIndicatorUnselectedColor="#9F9B9B"
+           app:sliderScrollTimeInSec="2"
+           app:sliderStartAutoCycle="true" />
+
+
+       <TextView
+           android:id="@+id/textView6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:text="@string/packing_solution"
+           android:textAlignment="center"
+           android:textColor="@color/colorNoteColor6"
+           android:textSize="18sp"
+           android:fontFamily="serif"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/main_recyclerView" />
+
+       <View
+           android:id="@+id/view5"
+           android:layout_width="0dp"
+           android:layout_height="2dp"
+           android:layout_marginTop="4dp"
+           android:background="@color/colorNoteColor6"
+           app:layout_constraintEnd_toEndOf="@+id/textView6"
+           app:layout_constraintStart_toStartOf="@+id/textView6"
+           app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+       <TextView
+           android:id="@+id/textView7"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="8dp"
+           android:fontFamily="serif"
+           android:layout_marginTop="8dp"
+           android:gravity="left"
+           android:padding="8dp"
+           android:text="@string/packing_desc"
+           android:textColor="@color/white"
+           android:textSize="12dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/packed_recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_constraintTop_toBottomOf="@+id/packed_recyclerView"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           android:orientation="vertical">
+           <include layout="@layout/happy_customer"/>
+
+           <include layout="@layout/our_clients"
+               android:layout_height="match_parent"
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp">
+           </include>
+       </LinearLayout>
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
